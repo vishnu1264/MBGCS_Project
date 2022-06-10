@@ -1,0 +1,31 @@
+.sidebar-component img {
+  height: 40px;
+  margin: 0px 15px 0px 10px;
+}
+.sidebar-component {
+  width: 240px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 1px 1px 5px #000000;
+}
+.sidebar-component div {
+  padding: 10px 0px;
+  cursor: pointer;
+}
+.sidebar-component a {
+    padding: 10px 0px;
+    cursor: pointer;
+  }
+.sidebar-component :hover{
+    background-color: rgb(219, 232, 233);
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }

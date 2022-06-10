@@ -1,0 +1,19 @@
+.top-menu-component{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.search-box{
+    margin-right: 20px;
+    border: 1px solid black;
+}
+.search-box input{
+    width: 300px;
+    border: none;
+    outline: none;
+}
+.date-input{
+    width: 100px;
+    margin-right: 10px;
+}

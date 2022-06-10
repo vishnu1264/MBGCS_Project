@@ -1,0 +1,27 @@
+*{
+  margin: 0px;
+}
+.sme-dashboard{
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.sme-page-content{
+  width: calc(100% - 240px);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  overflow-y: auto;
+}
+.sme-top-menu{
+  height: 50px;
+}
+.sme-content-block{
+  width: 100%;
+  height: calc(100%-50px);
+}
+hr{
+  margin: 0px;
+  border: 1px solid black;
+}

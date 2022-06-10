@@ -1,0 +1,8 @@
+.status-card{
+    width: 250px;
+    padding: 8px;
+    border: 1px solid black;
+}
+.status-card-image{
+    border: 1px solid black;
+}

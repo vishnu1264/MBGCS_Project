@@ -1,0 +1,16 @@
+.service-card{
+    margin-top: 10px;
+    border: 1px solid rgb(6, 6, 124);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+}
+.service-card:hover{
+    cursor: pointer;
+}
+.service-image{
+    height: 50px;
+    margin-right: 10px;
+    border: 1px solid black;
+}

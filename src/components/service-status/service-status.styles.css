@@ -1,0 +1,8 @@
+.ss-card-item{
+    border: 1px solid black;
+    margin-top: 10px;
+    padding: 8px;
+}
+.ss-card-item:hover{
+    cursor: pointer;
+}

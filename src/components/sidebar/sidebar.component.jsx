@@ -2,9 +2,12 @@ import "./sidebar.css";
 import { Link } from "react-router-dom";
 
 const Sidebar = () => {
+  const setBg = () => {
+    const r = 1;
+  }
   return (
     <div className="sidebar-component">
-      <Link className="" to='/'>
+      <Link to='/' onClick={setBg} >
         <img src={"../../homeicon.png"} alt="" />
         <span>Dashboard</span>
       </Link>

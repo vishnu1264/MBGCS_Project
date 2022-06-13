@@ -25,3 +25,7 @@ hr{
   margin: 0px;
   border: 1px solid black;
 }
+.thin-hr-line{
+  margin: 0px;
+  border: 1px solid white;
+}

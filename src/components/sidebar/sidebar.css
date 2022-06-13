@@ -7,7 +7,7 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
-  box-shadow: 1px 1px 5px #000000;
+  box-shadow: 1px 0px 0px #000000;
 }
 .sidebar-component div {
   padding: 10px 0px;
@@ -16,9 +16,9 @@
 .sidebar-component a {
     padding: 10px 0px;
     cursor: pointer;
-  }
+}
 .sidebar-component :hover{
-    background-color: rgb(219, 232, 233);
+    background-color: #DBE8E9;
 }
 a{
     text-decoration: none;
@@ -28,4 +28,7 @@ a:hover {
     color: black;
     text-decoration: none;
     cursor: pointer;
-  }
+}
+a:active{
+  background-color: #e8e8e8;
+}

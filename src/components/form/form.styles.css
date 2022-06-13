@@ -1,0 +1,21 @@
+.sme-input-form {
+  width: 80%;
+  margin: auto;
+}
+.form-label {
+  width: 30%;
+  font-size: 15px;
+}
+.form-input {
+  width: 67%;
+}
+/* .file-upload {
+  border: 1px solid black;
+} */
+.sme-input-form input {
+  border: 1px solid #d3d3d3;
+  border-radius: 2px;
+}
+.sme-input-form select {
+  border: 1px solid #d3d3d3;
+}

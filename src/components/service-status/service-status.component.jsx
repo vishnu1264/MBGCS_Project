@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const ServiceStatusComponent = 
 ({id, servicetype, name, date, time, reviewer, rdate, rtime}) => {
   return (
-    <Link to='/status/form' key={id} className="d-flex justify-content-between ss-card-item">
+    <Link to = {`/status/form/${name}`} key={id} className="d-flex justify-content-between ss-card-item">
       <div className="d-flex">
           <img style={{height:50}} src='../../man.png' alt=''/>
           <div className="d-flex flex-column">

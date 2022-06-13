@@ -12,7 +12,7 @@ function App() {
       <Route path='/'>
         <Route index element={<Home/>} />
         <Route path='status' element={<ServiceStatusPage/>} />
-        <Route path='/status/form' element={<ServiceForm/>}/>
+        <Route path='status/form/*' element={<ServiceForm/>}/>
         <Route path='services' element={<Services/>}/>
       </Route>
     </Routes>

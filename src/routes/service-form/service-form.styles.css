@@ -1,0 +1,22 @@
+.form-container{
+    width: calc(100% - 240px);
+}
+.sme-form{
+    width: 65%;
+    height: 100vh;
+    overflow: auto;
+    padding:10px;
+    box-shadow: 1px 0px 0px black;
+}
+.sme-chat{
+    width: 35%;
+    height: 100vh;
+    overflow: auto;
+    padding:10px;
+}
+.sme-form img{
+    color: white;
+}
+.sme-form img:hover{
+    cursor: pointer;
+}

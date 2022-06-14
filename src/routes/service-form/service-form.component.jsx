@@ -51,14 +51,10 @@ const ServiceForm = () => {
             <div>
               <h4>Chat</h4>
               <hr className="thin-hr-line" />
-              <div>
-                <Chat />
-              </div>
+              <Chat />
             </div>
           ) : (
-            <div>
-              <FilePreview />
-            </div>
+            <FilePreview />
           )}
         </div>
       </div>

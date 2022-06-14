@@ -1,12 +1,11 @@
 import ServiceStatusComponent from "../service-status/service-status.component";
-import sslist from "./temp2.json";
 import "./ss-list.styles.css";
 
-const SsList = () => {
+const SsList = ({list}) => {
   return (
     <div className="">
-      {sslist &&
-        sslist.map((service) => (
+      {list &&
+        list.map((service) => (
           <ServiceStatusComponent
             id={service.id}
             servicetype={service.servicetype}

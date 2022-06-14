@@ -1,8 +1,7 @@
 import "./service-list.css";
 import ServiceCard from "../service-card/service-card.component";
-import services from "./temp.json";
 
-const ServiceList = () => {
+const ServiceList = ({ list }) => {
   return (
     <>
       <div className="d-flex justify-content-between">
@@ -12,15 +11,17 @@ const ServiceList = () => {
             <img src="../../menu.png" alt="" style={{ height: 25 }} />
           </button>
           <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <span className="dropdown-item">Assign</span>
-            <span className="dropdown-item">Re-Assign</span>
+            <div className="dropdown dropdown-item" data-toggle="dropdown">
+              Assign
+            </div>
+            <div className="dropdown-item">Re-Assign</div>
           </div>
         </div>
       </div>
       <div className="services-list">
         <div>
-          {services &&
-            services.map((service) => (
+          {list &&
+            list.map((service) => (
               <ServiceCard
                 id={service.id}
                 servicetype={service.servicetype}

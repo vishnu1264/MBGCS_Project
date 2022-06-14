@@ -1,6 +1,6 @@
 .services-list{
     border: 1px solid black;
 }
-.dropdown-menu span{
+.dropdown-menu div{
     cursor: pointer;
 }

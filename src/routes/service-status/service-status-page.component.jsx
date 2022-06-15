@@ -11,9 +11,7 @@ const ServiceStatusPage = () => {
 
   useEffect(() => {
     const filteredservices = services.filter((service) => {
-      // console.log(service.name.toLocaleLowerCase());
       return service.name.toLocaleLowerCase().includes(searchField);
-      
     });
     setFilteredServices(filteredservices);
   }, [searchField]);
@@ -21,8 +19,8 @@ const ServiceStatusPage = () => {
   const onSearchChange = (event) => {
     const searchFieldString = event.target.value.toLocaleLowerCase();
     setSearchField(searchFieldString);
-    console.log(searchField);
   };
+  
   return (
     <div>
       <div className="ss-page">

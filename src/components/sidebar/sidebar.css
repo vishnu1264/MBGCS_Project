@@ -1,34 +1,25 @@
-.sidebar-component img {
-  height: 40px;
-  margin: 0px 15px 0px 10px;
-}
 .sidebar-component {
   width: 240px;
   height: 100vh;
   display: flex;
   flex-direction: column;
-  box-shadow: 1px 0px 0px #000000;
+  background-color: #080725;
+  box-shadow: 0px 0px 9px rgb(2, 11, 29);
 }
-.sidebar-component div {
-  padding: 10px 0px;
-  cursor: pointer;
+.sidebar-component span {
+  color: white;
 }
 .sidebar-component a {
-    padding: 10px 0px;
-    cursor: pointer;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 15px 0px;
+  cursor: pointer;
 }
-.sidebar-component :hover{
-    background-color: #DBE8E9;
+.sidebar-component a:hover {
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #1e1b81;
 }
-a{
-    text-decoration: none;
-    color: black;
-}
-a:hover {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
-}
-a:active{
-  background-color: #e8e8e8;
+.sidebar-component a:active{
+  background-color: #075cfa;
 }

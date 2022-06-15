@@ -3,7 +3,7 @@ import "./ss-list.styles.css";
 
 const SsList = ({list}) => {
   return (
-    <div className="">
+    <div className="service-status-list">
       {list &&
         list.map((service) => (
           <ServiceStatusComponent

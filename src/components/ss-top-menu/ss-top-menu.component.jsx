@@ -18,7 +18,7 @@ const SsTopMenu = ({onSearchChange}) => {
             type="search"
             placeholder="#Service id, #Customer number, Name"
             onChange={(event)=>onSearchChange(event)}
-          ></input>
+          />
         </div>
         <select className="mr-2">
           <option value="" default>
@@ -34,7 +34,7 @@ const SsTopMenu = ({onSearchChange}) => {
           <option value="1">S1</option>
           <option value="2">S2</option>
         </select>
-        <input className="date-input" type="text"></input>
+        <input className="date-input" type="text"/>
         <img src="../../calendar.png" alt="" style={{ height: 30 }} />
       </div>
     </div>

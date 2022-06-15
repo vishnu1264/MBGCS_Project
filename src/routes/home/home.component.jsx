@@ -32,7 +32,6 @@ const Home = () => {
           <div className="sme-top-menu">
             <TopMenu onSearchChange={onSearchChange} />
           </div>
-          <hr className="my-2" />
           <div className="sme-content-block">
             <ServiceRoles />
             <ServiceList list={filteredServices} />

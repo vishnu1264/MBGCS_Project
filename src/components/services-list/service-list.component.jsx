@@ -4,7 +4,7 @@ import ServiceCard from "../service-card/service-card.component";
 const ServiceList = ({ list }) => {
   return (
     <>
-      <div className="d-flex justify-content-between">
+      <div className="d-flex justify-content-between align-items-center">
         <span>Un Assigned Services</span>
         <div className="dropdown">
           <button className="btn" type="button" data-toggle="dropdown">
